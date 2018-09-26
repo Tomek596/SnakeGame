@@ -31,7 +31,7 @@ down.src = "audio/down.mp3";
 let snake = [];
 snake[0] = {
     x: 9 * box,
-    x: 10 * box
+    y: 10 * box
 }
 
 //create the food
@@ -132,4 +132,4 @@ function draw() {
 }
 
 //call draw function every 100ms
-let game = setInterval(draw, 100);
+let game = setInterval(draw, 200);
